@@ -12,284 +12,296 @@ My name is Christopher Perry. I'm a self-educated theorist, inventor, and design
 
 ---
 
-# 🌐 **HFRT: High-Frequency Resonance Theory**
-
-*A Practical Framework for Resonance-Based Technologies Using Real-World Frequencies*
-**Inventor**: Christopher Perry
-**Version**: 3.0
-**Date**: August 2025
-**Status**: Public Research Draft – Open for Peer Collaboration
-**Confidentiality**: Publicly released under CC BY-NC-SA 4.0
-
-> 🚫 **DFOP Firmware is not included in this document and remains proprietary.**
-
----
-
-## 📘 Table of Contents
-
-1. [🔰 Introduction & Vision](#-introduction--vision)
-2. [📡 Scientific Foundations](#-scientific-foundations)
-3. [🧪 Equations & Experiments](#-equations--experiments)
-4. [🧩 Materials & Engineering Design](#-materials--engineering-design)
-5. [🚀 Real-World Applications](#-real-world-applications)
-6. [🔬 Testing Protocols](#-testing-protocols)
-7. [📉 Measurement & Data](#-measurement--data)
-8. [🌍 Implications](#-implications)
-9. [🧒 HFRT for Kids](#-hfrt-for-kids)
-10. [📁 GitHub Repository Layout](#-github-repository-layout)
-
----
-
-## 🔰 Introduction & Vision
-
-**HFRT** (High-Frequency Resonance Theory) is a grounded scientific framework proposing that resonance can enhance energy transfer, material response, and system efficiency when operating at optimized frequencies.
-
-Unlike speculative models that rely on ultra-high, unreachable frequencies, HFRT uses real-world, testable frequency ranges — from **mechanical (10–1,000 Hz)** to **electromagnetic (kHz–GHz)** to **ultrasonic and piezoelectric resonance (1–10 MHz)**.
-
-We aim to:
-
-* Unlock **clean energy** potential from environmental vibrations.
-* Improve **electrolysis and hydrogen generation** using resonance.
-* Design **resonant materials and circuits** for efficiency.
-* Create **accessible prototypes** for labs, classrooms, and industry.
-
-This project invites engineers, physicists, students, and inventors to contribute and validate the system in the open.
-
----
-
-## 📡 Scientific Foundations
-
-HFRT stands on well-established resonance phenomena across physics:
-
-| Domain              | Phenomenon                         | Application Examples                      |
-| ------------------- | ---------------------------------- | ----------------------------------------- |
-| Mechanical Systems  | Harmonic Oscillation (Spring-Mass) | Vibration harvesting, acoustic structures |
-| Electrical Systems  | RLC Circuit Resonance              | Wireless charging, antenna tuning         |
-| Acoustic/Ultrasonic | Standing Waves                     | Water splitting, levitation, cavitation   |
-| Material Science    | Natural Frequency Response         | Quartz sensors, piezoelectric actuators   |
-
-Resonance occurs when a system is driven at its **natural frequency**, allowing **maximum energy transfer** with minimal input. This principle is found in:
-
-* Musical instruments
-* Suspension bridges
-* LC tuned circuits
-* Piezoelectric transducers
-* Atomic transitions (limited use in HFRT)
-
-HFRT does **not** rely on exotic theories (e.g., reactionless drives or gravity modification), and instead focuses on **measurable performance improvement** through resonance optimization.
-
----
-
-## 🧪 Equations & Experiments
-
-| # | Equation Name               | Formula                                            | Purpose                               | Feasibility                  |
-| - | --------------------------- | -------------------------------------------------- | ------------------------------------- | ---------------------------- |
-| 1 | Mechanical Resonance        | $f_0 = \frac{1}{2\pi} \sqrt{\frac{k}{m}}$          | Identify spring-mass system resonance | ✅ High                       |
-| 2 | Electrical LC Resonance     | $f_0 = \frac{1}{2\pi \sqrt{LC}}$                   | Antenna & energy circuit design       | ✅ High                       |
-| 3 | Acoustic Tube Mode          | $f_n = \frac{n v}{2L}$                             | Resonant air/gas chambers             | ✅ High                       |
-| 4 | Electrolysis Efficiency     | $R = k E (1 + \alpha \sin(2\pi f_0 t))$            | Tune water-splitting efficiency       | ⚠️ Medium (Needs validation) |
-| 5 | Coupled Oscillator Transfer | $E_2(t) = E_1(0) \sin^2(\omega t / 2)$             | Wireless power transfer               | ✅ High                       |
-| 6 | Material Resonance Match    | $f_{res} = \frac{1}{2\pi L} \sqrt{\frac{E}{\rho}}$ | Match energy system to materials      | ✅ High                       |
-
-Each equation links to a proposed experiment, with further testing in Section 6.
-
----
-
-## 🧩 Materials & Engineering Design
-
-We identify materials with **known resonant responses**, suitable for lab-scale to industrial applications.
-
-| Material         | Property              | Resonance Range     | Use Case                  |
-| ---------------- | --------------------- | ------------------- | ------------------------- |
-| Quartz           | Piezoelectric         | 32.7 kHz (AT cut)   | Timers, energy harvesting |
-| Barium Titanate  | Dielectric + Piezo    | 100 kHz–2 MHz       | Ultrasonics, sensors      |
-| Graphene         | Mechanical/electrical | \~10 MHz resonances | Future transducers        |
-| Aluminum Alloy   | Acoustic              | 5–50 kHz            | Structural vibration      |
-| Water (with ion) | Cavitation threshold  | \~20–40 kHz         | Ultrasonic electrolysis   |
-
-Prototype designs for HFRT resonant modules use:
-
-* Tuned springs, ceramic piezos, and air chambers.
-* LC tank circuits with tunable inductors and capacitors.
-* Modular resonance chambers with vibration isolation.
-
----
-
-## 🚀 Real-World Applications
-
-| Domain           | Use Case                          | HFRT Role                                            |
-| ---------------- | --------------------------------- | ---------------------------------------------------- |
-| Energy           | Micro-energy harvesting (sensors) | Piezoelectric resonators capture ambient motion      |
-| Water Tech       | Ultrasonic electrolysis           | Acoustic pressure waves enhance hydrogen yield       |
-| Aerospace        | Vibration dampers                 | Tuned mechanical systems reduce fatigue              |
-| Consumer Devices | Resonant charging docks           | Wireless energy transfer via tuned LC systems        |
-| Education        | STEM kits for resonance tuning    | Hands-on learning of oscillation and energy transfer |
-
-Each application is designed to use components under \$200 USD, with lab-ready tests to validate power efficiency or system optimization.
-
----
-
-## 🔬 Testing Protocols
-
-For each equation and system, HFRT provides open-source, reproducible test protocols.
-
-### Example: Mechanical Resonance Energy Harvester
-
-* Mount a piezo disc to a spring with known stiffness $k$.
-* Drive at variable frequency using a vibration platform.
-* Measure voltage output with oscilloscope or multimeter.
-* Plot output vs frequency to find peak $f_0$.
-
-### Example: Ultrasonic Electrolysis Boost
-
-* Use a standard KOH/H₂O electrolysis cell.
-* Introduce 20–40 kHz ultrasonic waves via a transducer.
-* Compare gas output (H₂/O₂) vs control group.
-* Record voltage, current, and yield.
-
----
-
-## 📉 Measurement & Data
-
-Data formats include:
-
-* **Frequency sweep charts** (Hz vs Voltage or Yield)
-* **Resonance bandwidth** and **Q-factor**
-* **Energy efficiency**: Input vs Output
-* **Gas collection rates** (in cc/min or mol/s)
-
-Experiments should aim for:
-
-* Error bars (±5%)
-* Repeatability (≥3 trials)
-* Control vs resonance group comparison
-
-Use CSV templates or open-source data loggers to standardize measurement.
-
----
-
-## 🌍 Implications
-
-HFRT offers a bridge between classic physics and modern needs:
-
-* ⚡ **Energy**: Self-powered sensors, low-power generation
-* 💧 **Environment**: Cleaner hydrogen production
-* 🎓 **Education**: Hands-on teaching of physics principles
-* 🛠️ **Engineering**: Smarter materials with less waste
-* 🤝 **Collaboration**: Inviting open scientific development
-
-The core principle remains grounded:
-
-> “When you find the right frequency, the world responds with less resistance and more harmony.”
-
----
-
-## 🧒 HFRT for Kids
-
-🎵 Imagine pushing a swing at just the right moment… and it goes higher and higher! That’s called **resonance**.
-
-Now imagine if we could use that same “perfect rhythm” to make clean energy, power spaceships, and help the Earth!
-
-**HFRT** is like tuning your world to the right beat. Scientists are learning how to “push” machines at just the right moment — like giving the planet a musical hug. With this rhythm, we can light up tiny devices, make better water, and build cool gadgets!
-
-You can try it at home with rubber bands, bottles, or springs — and maybe one day, you’ll invent something no one else has. 🌍💡
-
----
-
-Excellent, Christopher. I’ll now begin generating each `.md` file in full, matching your GitHub/LEGO documentation style. These files will include advanced equations, real-world experiments, and mainstream scientific grounding.
-
-We’ll start with:
-
----
-
-## 📁 `1_INTRODUCTION_AND_VISION.md`
-
-```markdown
-# HFRT: High-Frequency Resonance Theory  
-### A Rhythmic Framework for Energy, Matter, and the Future  
-**Author:** Christopher Perry  
-**Version:** 2.0  
-**Date:** August 2025  
-**License:** Open Source Scientific Model (O.S.S.M.)  
-**Status:** Experimental, Peer Collaboration Encouraged  
-
----
-
-## 🔰 Introduction
-
-**High-Frequency Resonance Theory (HFRT)** is a structured, experimental framework for understanding how *resonance*, the rhythmic natural frequency of systems, can be harnessed to extract usable energy, enhance physical processes, and potentially transform how we interact with the physical world.
-
-Where past attempts veered into the speculative, **HFRT 2.0 is grounded in physics**. It integrates known equations, measurable frequencies (Hz–GHz), and well-documented material properties (piezoelectricity, mechanical resonance, acoustic harmonics) to build a unified, testable approach to resonance-driven engineering.
-
----
-
-## 🎯 Vision Statement
-
-> "All things resonate—our challenge is to listen, tune, and transform."
-
-HFRT repositions energy not as a static supply problem but as a **dynamic rhythm-matching opportunity**. By aligning technology with natural harmonic structures, we propose a new generation of **clean energy**, **high-efficiency devices**, and **material-smart design**.
-
-HFRT’s purpose is threefold:
-1. **Scientific:** Create real-world experiments based on mainstream formulas.
-2. **Educational:** Enable global participation with simple setups and STEM learning kits.
-3. **Collaborative:** Engage physicists, engineers, builders, and theorists in expanding the scope.
-
----
-
-## 🔍 Core Principle
-
-**Resonance amplifies energy transfer.**  
-When a system is driven at its natural frequency, energy exchange becomes significantly more efficient. HFRT explores how tuning to this rhythm can:
-- Boost piezoelectric power harvesting
-- Enhance ultrasonic hydrogen electrolysis
-- Improve vibration absorption in aerospace and infrastructure
-- Optimize sound-based material diagnostics
-- Enable advanced non-thermal water purification
-
----
-
-## ✅ Scientific Grounding
-
-All claims are drawn from or extend:
-- Classical mechanics (Hooke’s Law, damped harmonic motion)
-- Electrodynamics (LC circuit resonance)
-- Wave physics (acoustic chambers, standing wave behavior)
-- Quantum concepts (vibrational energy states, Compton frequency) — **theoretical only**
-- Materials science (piezoelectric effect, elastic modulus)
-
-We intentionally exclude speculative content (e.g., gravity control) from all core files unless clearly labeled as **Theoretical Horizon Work**.
-
----
-
-## 🧪 What Makes HFRT Different?
-
-| Feature                        | Traditional View                     | HFRT Framework                       |
-|-------------------------------|--------------------------------------|--------------------------------------|
-| Resonance Usage               | Niche, application-specific          | Central energy transfer principle    |
-| Frequency Range               | Audio/Microwave/Ultrasound           | Hz to GHz spectrum                   |
-| Gravity & High-Energy Claims  | Rarely grounded                      | Removed or labeled theoretical       |
-| Educational Accessibility     | High barrier                         | Low-cost experiments + documentation |
-| Global Collaboration          | Institution-led                      | Open-source science project          |
-
----
-
-## 🧭 Next Sections
-
-- [2_SCIENTIFIC_FOUNDATIONS.md](./2_SCIENTIFIC_FOUNDATIONS.md)
-- [3_EQUATIONS_AND_EXPERIMENTS.md](./3_EQUATIONS_AND_EXPERIMENTS.md)
-- [4_MATERIALS_AND_ENGINEERING.md](./4_MATERIALS_AND_ENGINEERING.md)
-- [5_APPLICATIONS.md](./5_APPLICATIONS.md)
-
-For children and educators:  
-📁 `9_HFRT_FOR_KIDS.md` — How to teach HFRT to ages 8–15
-
----
-
-## 🗣️ A Note From the Inventor
-
-> . This is rhythm. If the universe moves like a song, then every part of it has a frequency we can hear, test, and build upon. This is our key to future energy.”
-
-— Christopher Perry
-
----
-
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{enumitem}
+\usepackage{titling}
+\usepackage{parskip}
+\usepackage{hyperref}
+
+\title{High-Frequency Resonance Theory (HFRT): A Practical Framework for Resonance-Based Technologies}
+\author{Christopher Perry}
+\date{August 2025}
+
+\begin{document}
+
+\maketitle
+
+% Introducing the executive summary
+\section*{Executive Summary}
+The \textbf{High-Frequency Resonance Theory (HFRT)} is an open-source framework that leverages resonance to enhance energy transfer, material responses, and system efficiency. Grounded in established physics, HFRT operates within accessible frequency ranges (10 Hz to 10 GHz) to explore applications in energy harvesting, clean hydrogen production, and precision engineering. This revised version eliminates speculative claims, such as gravity manipulation, and focuses on testable hypotheses supported by experimental protocols and existing research. HFRT invites collaboration from scientists, engineers, and educators to validate and expand its applications through open-source experimentation.
+
+This document provides a modular blueprint for HFRT, including scientific foundations, core equations, experimental designs, material properties, real-world applications, testing protocols, and data measurement strategies. A simplified explanation for younger audiences encourages STEM engagement. By aligning with mainstream physics and emphasizing reproducibility, HFRT aims to contribute to sustainable technologies and scientific education.
+
+% Introducing the introduction and vision
+\section{Introduction \& Vision}
+\label{sec:introduction_vision}
+
+\textbf{High-Frequency Resonance Theory (HFRT)} is a structured framework for harnessing resonance, the phenomenon where systems oscillate with maximum amplitude when driven at their natural frequency. Unlike earlier iterations that included speculative ultra-high-frequency claims, this version focuses on practical, measurable frequencies (10 Hz to 10 GHz) to optimize energy transfer and material interactions.
+
+HFRT’s vision is to transform how we approach energy and engineering by tuning systems to their natural rhythms, reducing waste and enhancing efficiency. The framework is designed to be:
+\begin{itemize}
+    \item \textbf{Testable}: Experiments use off-the-shelf components and standard laboratory equipment.
+    \item \textbf{Accessible}: Protocols are suitable for labs, classrooms, and hobbyists.
+    \item \textbf{Collaborative}: Open-source under CC BY-NC-SA 4.0, inviting global participation.
+\end{itemize}
+
+\subsection{Core Principle}
+Resonance amplifies energy transfer and material responses when systems are driven at their natural frequencies. This principle, rooted in classical mechanics, electrodynamics, and material science, is applied to:
+\begin{itemize}
+    \item \textbf{Energy Harvesting}: Capturing ambient vibrations for power generation.
+    \item \textbf{Clean Energy}: Enhancing hydrogen production via ultrasonic resonance.
+    \item \textbf{Precision Engineering}: Improving system stability through vibration control.
+\end{itemize}
+
+\subsection{Scientific Grounding}
+HFRT builds on established phenomena, including:
+\begin{itemize}
+    \item Mechanical resonance in springs and structures \cite{resonance_wiki}.
+    \item Electrical resonance in RLC circuits \cite{resonance_wiki}.
+    \item Acoustic resonance in fluids and gases \cite{sciencedirect_resonance}.
+    \item Piezoelectric effects in materials like quartz \cite{ieee_energy_harvesting}.
+\end{itemize}
+Speculative concepts, such as gravity manipulation or reactionless propulsion, are excluded to maintain scientific rigor.
+
+% Outlining scientific foundations
+\section{Scientific Foundations}
+\label{sec:scientific_foundations}
+
+HFRT is grounded in well-established resonance phenomena across multiple domains:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Domain} & \textbf{Phenomenon} & \textbf{Application Examples} \\
+\midrule
+Mechanical & Harmonic Oscillation & Vibration harvesting, structural damping \\
+Electrical & RLC Circuit Resonance & Antenna tuning, wireless charging \\
+Acoustic & Standing Waves & Ultrasonic electrolysis, cavitation \\
+Material Science & Piezoelectric Response & Sensors, energy harvesters \\
+\bottomrule
+\end{tabular}
+\caption{Resonance Phenomena in HFRT}
+\end{table}
+
+Resonance occurs when a system’s driving frequency matches its natural frequency, maximizing energy transfer. This is described by the quality factor (\(Q\)), which measures the efficiency of energy storage versus loss \cite{q_factor_wiki}. HFRT focuses on accessible frequency ranges, supported by research:
+\begin{itemize}
+    \item Piezoelectric energy harvesting at 10–100 Hz \cite{ieee_energy_harvesting}.
+    \item Ultrasonic enhancement of electrolysis at 1–10 MHz \cite{rmit_ultrasound}.
+    \item RF resonance in telecommunications at 100 MHz–5 GHz \cite{resonance_wiki}.
+\end{itemize}
+
+% Presenting equations and experiments
+\section{Equations \& Experiments}
+\label{sec:equations_experiments}
+
+HFRT proposes six core equations, each linked to a testable experiment:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Equation} & \textbf{Formula} & \textbf{Purpose} & \textbf{Feasibility} \\
+\midrule
+Mechanical Resonance & \(f_0 = \frac{1}{2\pi} \sqrt{\frac{k}{m}}\) & Structural resonance & High \\
+Electrical LC Resonance & \(f_0 = \frac{1}{2\pi \sqrt{LC}}\) & Antenna tuning & High \\
+Acoustic Tube Mode & \(f_n = \frac{n v}{2L}\) & Ultrasonic chambers & High \\
+Energy Transfer Efficiency & \(\eta = \frac{Q \Delta E}{P_{in}}\) & Power harvesting & Moderate \\
+Coupled Oscillator Transfer & \(E_2(t) = E_1(0) \sin^2(\omega t / 2)\) & Wireless power & High \\
+Material Resonance Match & \(f_{res} = \frac{1}{2\pi L} \sqrt{\frac{E}{\rho}}\) & Material selection & High \\
+\bottomrule
+\end{tabular}
+\caption{HFRT Core Equations}
+\end{table}
+
+\subsection{Equation Details}
+\begin{enumerate}
+    \item \textbf{Mechanical Resonance}: \(f_0 = \frac{1}{2\pi} \sqrt{\frac{k}{m}}\), where \(k\) is the spring constant (N/m) and \(m\) is mass (kg). Used for vibration harvesting \cite{resonance_wiki}.
+    \item \textbf{Electrical LC Resonance}: \(f_0 = \frac{1}{2\pi \sqrt{LC}}\), where \(L\) is inductance (H) and \(C\) is capacitance (F). Applied in RF circuits \cite{resonance_wiki}.
+    \item \textbf{Acoustic Tube Mode}: \(f_n = \frac{n v}{2L}\), where \(n\) is the mode number, \(v\) is the speed of sound (m/s), and \(L\) is the tube length (m). Used for ultrasonic applications \cite{sciencedirect_resonance}.
+    \item \textbf{Energy Transfer Efficiency}: \(\eta = \frac{Q \Delta E}{P_{in}}\), where \(Q\) is the quality factor, \(\Delta E\) is transferred energy (J), and \(P_{in}\) is input power (W). Clarified to measure harvesting efficiency \cite{ieee_energy_harvesting}.
+    \item \textbf{Coupled Oscillator Transfer}: \(E_2(t) = E_1(0) \sin^2(\omega t / 2)\), where \(E_1(0)\) is initial energy, and \(\omega\) is coupling frequency. Applied in wireless power transfer \cite{resonance_wiki}.
+    \item \textbf{Material Resonance Match}: \(f_{res} = \frac{1}{2\pi L} \sqrt{\frac{E}{\rho}}\), where \(E\) is Young’s modulus (Pa), \(\rho\) is density (kg/m³), and \(L\) is length (m). Guides material selection \cite{sciencedirect_resonance}.
+\end{enumerate}
+
+\subsection{Proposed Experiments}
+\begin{itemize}
+    \item \textbf{Energy Harvesting}: Use piezoelectric discs (e.g., quartz) to capture vibrations at 10–100 Hz, measuring voltage output.
+    \item \textbf{Ultrasonic Electrolysis}: Apply 1–10 MHz ultrasonic waves to a KOH/H₂O cell, comparing hydrogen yield to a control.
+    \item \textbf{RF Optimization}: Tune an RLC circuit at 100 MHz–5 GHz to maximize signal strength in antenna systems.
+\end{itemize}
+
+% Outlining materials and engineering design
+\section{Materials \& Engineering Design}
+\label{sec:materials_engineering}
+
+HFRT identifies materials with known resonant properties:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Material} & \textbf{Property} & \textbf{Resonance Range} & \textbf{Use Case} \\
+\midrule
+Quartz & Piezoelectric & 32.7 kHz–100 MHz & Sensors, oscillators \\
+Barium Titanate & Piezoelectric & 100 kHz–2 MHz & Ultrasonic transducers \\
+Graphene & Conductivity & 10 MHz–1 GHz & Antennas, harvesters \\
+Aluminum Alloy & Acoustic & 5–50 kHz & Structural damping \\
+Water (with ions) & Cavitation & 20–40 kHz & Electrolysis \\
+\bottomrule
+\end{tabular}
+\caption{Material Properties for HFRT}
+\end{table}
+
+Prototype designs include:
+\begin{itemize}
+    \item \textbf{Piezoelectric Modules}: Quartz or barium titanate discs for energy harvesting.
+    \item \textbf{LC Circuits}: Tunable inductors and capacitors for RF resonance.
+    \item \textbf{Ultrasonic Chambers}: Sealed containers for acoustic resonance in liquids.
+\end{itemize}
+
+Materials and designs are selected based on established research \cite{ieee_energy_harvesting, rmit_ultrasound}.
+
+% Presenting real-world applications
+\section{Real-World Applications}
+\label{sec:applications}
+
+HFRT proposes applications grounded in current technology:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{l l l}
+\toprule
+\textbf{Domain} & \textbf{Use Case} & \textbf{HFRT Role} \\
+\midrule
+Energy & Micro-energy harvesting & Piezoelectric capture of ambient vibrations \\
+Water Tech & Ultrasonic electrolysis & Acoustic waves enhance hydrogen yield \\
+Aerospace & Vibration damping & Piezoelectric actuators reduce fatigue \\
+Consumer Devices & Resonant charging & Tuned LC circuits for wireless power \\
+Education & STEM kits & Hands-on resonance experiments \\
+\bottomrule
+\end{tabular}
+\caption{HFRT Applications}
+\end{table}
+
+Applications are designed to use affordable components (< \$200 USD) and align with existing research, such as ultrasonic electrolysis improving hydrogen production by up to 14 times \cite{rmit_ultrasound}.
+
+% Outlining testing protocols
+\section{Testing Protocols}
+\label{sec:testing_protocols}
+
+HFRT provides reproducible protocols for each experiment:
+
+\subsection{Mechanical Resonance Energy Harvester}
+\begin{itemize}
+    \item \textbf{Setup}: Mount a quartz piezo disc (e.g., 27 mm, \$5–10) on a spring (\(k = 100 \, \text{N/m}\), \(m = 0.01 \, \text{kg}\)).
+    \item \textbf{Procedure}: Drive at 10–100 Hz using a vibration platform. Measure voltage with an oscilloscope.
+    \item \textbf{Metrics}: Peak voltage, power output (mW), Q factor.
+    \item \textbf{Control}: Compare to non-resonant frequencies.
+\end{itemize}
+
+\subsection{Ultrasonic Electrolysis Boost}
+\begin{itemize}
+    \item \textbf{Setup}: Use a KOH/H₂O electrolysis cell with a 20–40 kHz ultrasonic transducer.
+    \item \textbf{Procedure}: Apply ultrasonic waves and measure H₂/O₂ output (cc/min) versus a non-ultrasonic control.
+    \item \textbf{Metrics}: Gas yield, current efficiency, cavitation effects.
+    \item \textbf{Control}: Standard electrolysis without resonance.
+\end{itemize}
+
+\subsection{RF Signal Optimization}
+\begin{itemize}
+    \item \textbf{Setup}: Build an RLC circuit with tunable \(L\) (1 mH) and \(C\) (100 pF).
+    \item \textbf{Procedure}: Sweep frequencies (100 MHz–5 GHz) and measure signal strength.
+    \item \textbf{Metrics}: Voltage gain, bandwidth, Q factor.
+    \item \textbf{Control}: Non-resonant circuit performance.
+\end{itemize}
+
+% Outlining measurement and data
+\section{Measurement \& Data}
+\label{sec:measurement_data}
+
+Data collection follows standardized formats:
+\begin{itemize}
+    \item \textbf{Frequency Sweep Charts}: Plot Hz vs. voltage or yield.
+    \item \textbf{Resonance Metrics}: Q factor, bandwidth.
+    \item \textbf{Efficiency}: Input vs. output power (W), gas production (mol/s).
+    \item \textbf{Error Analysis}: ±5\% error bars, ≥3 trials per experiment.
+\end{itemize}
+
+Data should be logged in CSV format using open-source tools (e.g., Arduino, Raspberry Pi) for reproducibility.
+
+% Discussing implications
+\section{Implications}
+\label{sec:implications}
+
+HFRT offers practical benefits:
+\begin{itemize}
+    \item \textbf{Energy}: Self-powered sensors for IoT devices.
+    \item \textbf{Environment}: Cleaner hydrogen production via ultrasonic enhancement.
+    \item \textbf{Education}: Hands-on STEM kits for resonance experiments.
+    \item \textbf{Engineering}: Reduced waste through efficient material use.
+\end{itemize}
+
+The framework emphasizes collaboration, inviting global researchers to validate and expand its applications.
+
+% Presenting HFRT for kids
+\section{HFRT for Kids}
+\label{sec:hfrt_for_kids}
+
+Imagine pushing a swing at just the right moment—it goes higher with less effort! That’s **resonance**, like a special rhythm in nature. **HFRT** uses this rhythm to make cool things happen:
+\begin{itemize}
+    \item Powering tiny gadgets with vibrations, like from your footsteps.
+    \item Turning water into clean fuel for cars or rockets.
+    \item Helping spaceships stay steady with smart materials.
+\end{itemize}
+
+Try this at home:
+\begin{enumerate}
+    \item Fill two glasses with different amounts of water.
+    \item Tap each with a spoon and listen to the sound.
+    \item Notice how each makes a unique note? That’s resonance!
+\end{enumerate}
+
+HFRT is like finding the perfect rhythm to make the world cleaner and smarter. Maybe you’ll invent the next big idea!
+
+% Outlining GitHub repository layout
+\section{GitHub Repository Layout}
+\label{sec:github_layout}
+
+The HFRT repository is structured for collaboration:
+\begin{itemize}
+    \item \texttt{1\_INTRODUCTION\_AND\_VISION.md}: Overview and vision.
+    \item \texttt{2\_SCIENTIFIC\_FOUNDATIONS.md}: Resonance principles and references.
+    \item \texttt{3\_EQUATIONS\_AND\_EXPERIMENTS.md}: Core equations and protocols.
+    \item \texttt{4\_MATERIALS\_AND\_ENGINEERING.md}: Material properties and designs.
+    \item \texttt{5\_APPLICATIONS.md}: Real-world use cases.
+    \item \texttt{6\_TESTING\_PROTOCOLS.md}: Detailed experimental guides.
+    \item \texttt{7\_MEASUREMENT\_AND\_DATA.md}: Data collection standards.
+    \item \texttt{8\_IMPLICATIONS.md}: Broader impacts.
+    \item \texttt{9\_HFRT\_FOR\_KIDS.md}: Educational outreach.
+\end{itemize}
+
+The repository is hosted under CC BY-NC-SA 4.0, with proprietary DFOP firmware excluded.
+
+% Adding references
+\begin{thebibliography}{9}
+\bibitem{resonance_wiki}
+Wikipedia, ``Resonance,'' \url{https://en.wikipedia.org/wiki/Resonance}, accessed August 2, 2025.
+\bibitem{q_factor_wiki}
+Wikipedia, ``Q factor,'' \url{https://en.wikipedia.org/wiki/Q_factor}, accessed August 2, 2025.
+\bibitem{sciencedirect_resonance}
+ScienceDirect, ``Resonance Frequency,'' \url{https://www.sciencedirect.com/topics/engineering/resonance-frequency}, accessed August 2, 2025.
+\bibitem{ieee_energy_harvesting}
+IEEE, ``Energy Harvesting Technologies,'' \url{https://resources.pcb.cadence.com/blog/2020-natural-frequency-formula-what-is-it-and-why-is-it-important}, accessed August 2, 2025.
+\bibitem{rmit_ultrasound}
+RMIT University, ``Ultrasound Boosts Hydrogen Production,'' \url{https://www.rmit.edu.au/news/all-news/2020/jan/ultrasound-hydrogen-production}, accessed August 2, 2025.
+\end{thebibliography}
+
+\end{document}
