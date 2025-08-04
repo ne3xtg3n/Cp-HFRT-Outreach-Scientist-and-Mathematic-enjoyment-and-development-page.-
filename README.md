@@ -158,14 +158,25 @@ Contributions or feedback are welcome via [GitHub Issues](https://github.com/[yo
 
 *Placeholder for figures and simulation results.*
 
-- **Figure 1**: Diagram illustrating field-sensitive resonance under gravitational stress (`./figures/figure1.png`).
-- **Figure 2**: Standing wave model for subatomic particles (`./figures/figure2.png`).
-- **Simulation 1**: Particle behavior in a quantized field (`./simulations/particle_behavior.py`).
-- **Simulation 2**: Energy conversion via resonant interactions (`./simulations/energy_conversion.py`).
+- **Figure 1**: Diagram illustrating field-sensitive resonance under gravitational stress
+- <img width="2048" height="2048" alt="1000016289" src="https://github.com/user-attachments/assets/f36ed770-3733-4891-8f88-b499ae184b60" />
+<img width="1024" height="1536" alt="1000016316" src="https://github.com/user-attachments/assets/66c98dd3-5c0d-4a6d-8775-3be089597c88" />
 
-*Note*: Figures and simulations will be added in future commits. See [Issues](https://github.com/[your-repo]/issues) for contribution opportunities.
+- **Figure 2**: Standing wave model for subatomic particles
+![1000016317](https://github.com/user-attachments/assets/bf090b03-f43c-4ed4-9caf-0f5714d13477)
+
+- 
+ Figure 3 PBQRS
+![1000016318](https://github.com/user-attachments/assets/e298ddf7-ace3-4d6a-b70f-dc0caa193d13)
+
+Fig 4
+
+<img width="1536" height="1024" alt="1000016319" src="https://github.com/user-attachments/assets/8024c792-bcb4-4495-b432-6b69ec89d5b6" />
+
+*Note*: Figures and simulations will be added in future commits.  for contribution opportunities.
 
 ---
+Simulation 2 
 
 ## References
 
