@@ -765,3 +765,231 @@ Rigorous testing protocols, including precise hydrogen production measurements v
 Looking ahead, the future development of the HFRT Compact Hydrogen Fuel Generator will focus on several key directions. Continued research into material optimization will aim to further enhance electrode longevity and resistance to degradation. Scaling up production processes will be critical to further reduce manufacturing costs, making the technology even more competitive. Exploring new and diverse use cases, beyond current portable and mobility applications, will expand market reach. Finally, deeper integration with intermittent renewable energy sources will solidify its role as a cornerstone in the transition to a sustainable, hydrogen-powered future. The HFRT generator is poised to be a pivotal enabler in accelerating the global shift towards a cleaner, more distributed energy economy.
 ```
 
+---
+Here is the complete set of documents detailing the HFRT Compact Hydrogen Fuel Generator, designed for valid claims, comprehensive coverage, and a clear structure for your GitHub repository.
+Hydrogen Generator Documentation Package
+This package contains the complete set of documents for the HFRT Compact Hydrogen Fuel Generator, organized into a clear, modular format suitable for a GitHub repository.
+README.md
+🌐 HFRT Compact Hydrogen Fuel Generator
+A Practical, Open-Source Solution for Enhanced Green Hydrogen Production
+Inventor: Christopher Perry
+Version: 1.0 (Hydrogen Generator Specific)
+Date: August 2025
+Status: Public Research Draft – Open for Peer Collaboration
+License:(https://creativecommons.org/licenses/by-nc-sa/4.0/)
+📘 Table of Contents
+ * 1. Process Overview
+   *(https://www.google.com/search?q=2_DESIGN_AND_BUILD.md)
+ * 3. Cost Analysis
+   *(https://www.google.com/search?q=4_TESTING_AND_VALIDATION.md)
+ * 5. Applications and Use Cases
+   *(https://www.google.com/search?q=6_SAFETY_PROTOCOLS.md)
+   *(https://www.google.com/search?q=7_FUTURE_DEVELOPMENT.md)
+   *(https://www.google.com/search?q=8_REFERENCES.md)
+1_PROCESS_OVERVIEW.md
+1. Process Overview: Sono-Electrolysis for Enhanced Hydrogen Production
+The HFRT Compact Hydrogen Fuel Generator utilizes sono-electrolysis, an advanced method that integrates high-intensity ultrasonication with traditional water electrolysis to significantly enhance hydrogen production efficiency and rate.
+1.1 Fundamental Principles
+Water electrolysis is the core process, splitting water (H₂O) into hydrogen (H₂) and oxygen (O₂) using electrical energy.[1, 2]
+ * Cathode (Reduction): 2\\text{H}^+ \\text{(aq)} + 2\\text{e}^- \\rightarrow \\text{H}\_2 \\text{(g)}
+ * Anode (Oxidation): 2\\text{H}\_2\\text{O} \\text{(l)} \\rightarrow \\text{O}\_2 \\text{(g)} + 4\\text{H}^+ \\text{(aq)} + 4\\text{e}^-
+ * Overall Reaction: 2\\text{H}\_2\\text{O} \\text{(l)} \\rightarrow 2\\text{H}\_2 \\text{(g)} + \\text{O}\_2 \\text{(g)} [1]
+1.2 The Role of Ultrasonication
+The key innovation of the HFRT generator is the introduction of high-intensity ultrasound waves into the liquid electrolyte. This induces several beneficial phenomena [1]:
+ * Acoustic Cavitation & Vibration: High-intensity ultrasound creates micro-bubbles that rapidly form and collapse (cavitation), generating localized effects like acoustic streaming, micro-turbulences, microjets, and shock waves.[1]
+ * Enhanced Mass Transfer: Ultrasonication reduces the diffusion layer thickness at the electrode surface, ensuring a continuous supply of reactants and efficient removal of products. This boosts reaction rates and overall yield.[1, 3]
+ * Bubble Removal: Acoustic agitation actively dislodges hydrogen and oxygen bubbles from electrode surfaces, preventing "bubble blanketing" which can reduce the active electrode area and increase resistance.[1, 3]
+ * Electrode Cleaning & Activation: Ultrasound removes deposits and activates electrode surfaces, maintaining their efficiency over time.[1]
+ * Reduced Energy Input: Sono-electrolysis lowers the decomposition potential (minimum voltage), reduces ohmic voltage drop, and decreases reaction overpotential, leading to a more energy-efficient process.[1, 3]
+These synergistic effects contribute to significantly higher hydrogen yields and improved energy efficiency compared to conventional electrolysis.[1]
+2_DESIGN_AND_BUILD.md
+2. Design and Build: Engineering the HFRT Compact Hydrogen Fuel Generator
+The HFRT Compact Hydrogen Fuel Generator is designed as an integrated, efficient, and compact system.
+2.1 System Architecture
+The generator comprises several essential components [4]:
+ * Water Reservoir: Stores the water for electrolysis.
+ * Electrolysis Cells: Where the water splitting occurs.
+ * Power Supply: Provides the necessary electrical current.
+ * Ultrasonic Transducer: Generates high-intensity ultrasound.
+ * Gas Purification Components: Ensures hydrogen purity.
+ * Gas Storage Components: Safely stores produced hydrogen and oxygen.
+2.2 Electrolysis Cell: Design, Materials, and Configuration
+The electrolysis cell is the core of the system, designed for alkaline electrolysis using potassium hydroxide (KOH) as the electrolyte.[5, 6, 7] Smaller, potentially rebuildable, alkaline cells are utilized for compactness.[2]
+ * Electrode Materials: Predominantly nickel-based materials, such as pure nickel mesh or foam nickel, often coated with highly active catalysts like Raney nickel. These materials offer excellent resistance to acids and alkalis, high-temperature stability, and a large surface area for efficient reaction kinetics.[8]
+ * Diaphragm/Separator: Separates hydrogen and oxygen gases while allowing ion passage. Materials include asbestos, PTFE, PPS, polysulfone, and PEEK, chosen for alkali corrosion resistance, mechanical strength, and porosity.[8]
+ * Cell Housing: Constructed from robust materials like cast iron, nickel plate, or stainless steel for industrial units. For compact HFRT units, acrylic or glass cells (50mL to 1000mL volumes) are commonly used.[9, 10, 11, 12]
+ * Electrolyte Concentration: An optimal concentration of approximately 30 wt% KOH is preferred for high conductivity and low viscosity. Real-time monitoring with refractometers (e.g., Vaisala Polaris) ensures stability and prevents efficiency loss due to bubble formation.[13, 5, 7]
+2.3 Ultrasonic Transducer Integration and Specifications
+The ultrasonic transducer generates the high-intensity ultrasound waves crucial for sono-electrolysis.[6]
+ * Type: Most likely a Langevin-type transducer, featuring piezoceramic elements mechanically compressed between front and back drivers.[14]
+ * Materials: Drivers are typically made from Titanium, Aluminum, or Magnesium.[14]
+ * Design Considerations: Peripheral shell designs offer advantages over traditional center bolt designs, including increased power output, improved flexure resistance, enhanced water tightness, and superior fatigue resistance.[14] Precise prestress across piezoceramics optimizes performance and operating temperature.[14]
+ * Cooling: Effective cooling (air, liquid, or secondary methods) is critical to maintain optimal operating temperatures and prevent overheating.[14]
+2.4 Thermal Management and Heat Dissipation
+Electrolysis generates significant heat from the cells, AC-to-DC conversion, and gas streams.[15] A closed-loop cooling system, typically using water or a water-glycol mixture, manages this thermal load.[15]
+ * Cooling Methods: Plate and frame heat exchangers are common. Dry cooling (Air Fin Coolers - AFC) offers water savings but higher temperature approaches. Wet cooling (cooling towers) provides lower temperatures but consumes water. Fogging systems and adiabatic pads can reduce inlet air temperatures to AFCs, especially in hot, low-humidity conditions.[15]
+ * Importance: Effective thermal management is vital for maintaining efficiency, preventing component degradation (e.g., electrode delamination), and ensuring long-term economic viability.[16, 15]
+3_COST_ANALYSIS.md
+3. Cost Analysis: Economic Viability of the HFRT Generator
+The economic viability of the HFRT Compact Hydrogen Fuel Generator is determined by its component costs, manufacturing scale, and the significant efficiency gains from sono-electrolysis.
+3.1 Component Cost Breakdown and Sourcing
+The manufacturing cost is a sum of its key components:
+| Component Category | Estimated Unit Cost Range (USD) | Notes/Considerations ||:---|:---|:--- |
+| Electrolysis Cell | $88 - $6,105 | Depends on cell count, type (PEM/Alkaline), and complexity (e.g., stack vs. single cell) [2] |
+| Electrodes | $4.55 - $35.33 (per piece) | Pure nickel mesh/foam; bulk discounts (5-22% off for 3-30+ units) available [8, 17, 18] |
+| Ultrasonic Transducer | $3.51 - $638.00 | Wide range; high-power industrial transducers likely in higher range [19, 20, 21] |
+| Power Supply (DC) | $20 - $1,117 | Basic testers to variable adjustable lab supplies and high-frequency rectifiers [5, 11] |
+| Cell Housing (Glass/Acrylic) | $54.99 - $251.90 | Varies by volume (50mL-1000mL) and included features [9, 10] |
+| Water Reservoir | Not specified | Essential component for water storage [4] |
+| Gas Purification Components | Not specified | Critical for ensuring hydrogen purity [4] |
+| Gas Storage Components | Not specified | Required for safe containment of produced hydrogen [4, 22] |
+Strategic sourcing and increased manufacturing volume offer substantial opportunities for cost optimization, particularly for electrodes where bulk discounts are available.[18]
+3.2 Comparative Economic Analysis: Electrolysis vs. Steam Methane Reforming (SMR)
+Historically, SMR has been more cost-effective due to natural gas abundance and mature technology.[23] Electricity costs have been the main barrier for electrolysis.[23]
+ * Cost Comparison: In 2020, electrolysis (even in the cheapest US state) was more expensive than SMR with 90% carbon capture and storage (CCS).[24] Projections suggest this gap could persist if electricity costs remain static.[24]
+ * HFRT Advantage: The HFRT generator's enhanced efficiency through sono-electrolysis directly narrows this economic gap. Studies show sono-electrolysis can:
+   * Reduce ohmic resistance by up to 76%.[19]
+   * Increase hydrogen production efficiency by up to 28%.[19]
+   * Increase hydrogen production by up to 45%.[19]
+   * Achieve energy savings ranging from 10% to 25%.[19]
+   * Reduce power consumption by 21.5% in some cases.[3]
+ * Long-Term Viability: As renewable energy costs decrease and carbon pricing/regulations increase, the HFRT generator's green hydrogen production becomes increasingly favorable. Its efficiency advantage helps accelerate the adoption of green hydrogen by reducing the electricity required per kilogram.[9, 23]
+4_TESTING_AND_VALIDATION.md
+4. Testing and Validation: Ensuring Performance and Purity
+Rigorous testing protocols are fundamental to validating the performance, purity, and longevity of the HFRT Compact Hydrogen Fuel Generator.
+4.1 Hydrogen Production Measurement Techniques
+Accurate quantification of hydrogen production is achieved using three primary field test methods [25, 26]:
+ * Gravimetric Method
+ * Pressure, Volume, Temperature (PVT) Method: Involves precise measurement of gas storage tank volume, hydrogen pressure, and temperature.[26]
+   * Pressure Sensors: Highly accurate resonant silicon gauge transducers for lab tests; intrinsically safe analog sensors for field tests (calibrated against higher accuracy sensors).[26]
+   * Sensor Drift: Analog sensors can exhibit drift (e.g., 0.5% to 1.7% over a week, up to 1.34% over 90 days), necessitating robust calibration.[26]
+ * Master Meter Method
+4.2 Hydrogen Purity Analysis and Impurity Detection
+Analyzing hydrogen purity is essential, especially for fuel cell applications where impurities can degrade performance.[27]
+ * Gas Chromatography (GC): Commonly used for general purity assessment, separating gases based on interaction with a stationary phase.[28, 27]
+ * Gas Chromatography–Mass Spectrometry (GC-MS): Combines GC separation with mass spectrometry for highly sensitive (ppb to ppt range) identification and quantification of trace impurities.[27]
+ * Inductively Coupled Plasma Mass Spectrometry (ICP-MS): Highly sensitive (ppt range) for detecting trace elements and metallic impurities, suitable for multi-element analysis.[27]
+The choice of technique depends on the required purity level for the intended application, impacting the overall cost of the hydrogen product.
+4.3 Electrode Degradation Mechanisms and Longevity Assessment
+Understanding electrode degradation is crucial for long-term performance and reliability.[29, 16]
+ * Common Mechanisms:
+   * Microstructural deterioration (coarsening) and blocking of active reaction sites on porous electrodes.[16]
+   * Detachment of active material from the electrode surface, exacerbated by bubble adhesion and electrolyte corrosion.[29, 16]
+   * Contact problems between cell components, including electrode delamination from the electrolyte, increasing ohmic resistance.[16]
+   * Growth of poorly conducting oxide layers between metallic interconnects and electrodes.[16]
+   * High pressures at the anode/electrolyte interface causing delamination.[16]
+   * Chloride ions (if present as impurities) causing severe electrode and catalyst corrosion.[30]
+ * Assessment: Post-test examination using techniques like secondary electron microscopy (SEM) is essential to observe microstructural changes and delamination.[16]
+ * Mitigation: Design philosophies that anticipate component wear, such as the use of rebuildable electrolyzer kits, facilitate convenient replacement and maintenance.[2]
+5_USE_CASES.md
+5. Applications and Use Cases: Powering a Sustainable Future
+The HFRT Compact Hydrogen Fuel Generator is designed for versatile applications, contributing to decarbonization across various sectors.
+5.1 Portable and Distributed Power Generation
+The HFRT generator offers a clean, zero-emission alternative to conventional portable diesel or battery generators.[6, 31]
+ * Personal Electronics: Charging laptops, smartphones, radios, fans, Bluetooth headphones, portable cameras, LED flashlights, and camping devices.[6]
+ * Remote & Off-Grid Power: Provides scalable, on-demand power for locations with limited or no grid access, including rapid EV charging and powering electric equipment.[31]
+ * Unmanned Vehicles: Serves as a quiet and highly efficient electrochemical power generator for small unmanned aerial vehicles (UAVs), robotics, drones, and ground robots.[6]
+Its fast refueling times offer a significant advantage over battery-based solutions, making it ideal for mobile and emergency power needs.[31]
+5.2 Integration into Mobility and Industrial Sectors
+The HFRT generator facilitates the adoption of hydrogen-powered mobility and industrial equipment by enabling distributed hydrogen production.
+ * Hydrogen Internal Combustion Engine Vehicles (HICEVs): HICEVs are modified gasoline engines that burn hydrogen fuel, producing virtually zero CO₂ emissions (though NOx can be produced).[32] They offer similar operational and maintenance costs to diesel engines and faster refueling than battery electric vehicles.[33]
+   * Applications: Suitable for medium- and heavy-duty vehicles (buses, trucks, port equipment, delivery vans).[31, 33]
+   * Small Mobility: Major manufacturers (Kawasaki, Yamaha, Honda, Suzuki) are collaborating on hydrogen-powered engines for small mobility.[32]
+   * Efficiency: Hydrogen's wide flammability range (3%–70% H₂ in air) allows for lean fuel-air mixtures, enhancing fuel economy and promoting more complete combustion.[32]
+ * Fuel Cells: HFRT can complement fuel cell technology by providing on-demand hydrogen supply.
+ * Industrial Equipment: Supports the decarbonization of various industrial processes by providing accessible, on-site hydrogen generation.[31]
+The HFRT generator acts as a critical enabler for the energy transition, particularly where centralized refueling infrastructure is absent, allowing for a more flexible and decentralized approach to hydrogen supply.
+6_SAFETY_PROTOCOLS.md
+6. Safety Protocols: Hydrogen and Chemical Handling
+The HFRT Compact Hydrogen Fuel Generator involves handling hydrogen gas and potassium hydroxide (KOH) electrolyte, both of which require strict safety protocols.
+6.1 Hydrogen Handling, Storage, and Leak Detection
+Hydrogen is highly flammable and can act as a simple asphyxiant.[34, 35, 36]
+ * Properties: Highly flammable (3%–70% H₂ in air), burns with a pale blue, almost invisible flame.[34]
+ * Storage:
+   * Outdoors Preferred: Store outdoors at a safe distance from structures, ventilation intakes, and vehicle routes.[22]
+   * Indoor Limitations: If indoors, limit total hydrogen volume based on workspace size, maintain minimum spacing from oxidants, and secure cylinders upright.[34, 22]
+   * Environment: Store in cool, dry, well-ventilated areas, below 125°F (52°C), free of ignition sources. All electrical equipment must be explosion-proof.[34]
+   * Separation: Separate hydrogen from oxygen, chlorine, and other oxidizers by at least 20 ft (6.1 m), or use a noncombustible barricade.[34]
+   * Inventory: Store full and empty cylinders separately; use a first-in, first-out system.[34]
+ * Handling:
+   * Keep away from heat, sparks, and open flames; use only spark-proof tools and explosion-proof equipment.[34]
+   * Protect cylinders from physical damage; use suitable hand trucks.[34]
+   * All piped hydrogen systems must be properly grounded.[34]
+   * Leak Checks: Always perform leak checks using soapy water; never use a flame.[34]
+   * Open cylinder valves slowly and only when connected to utilization equipment; close after each use.[34]
+   * Install a flash arrestor in the line to prevent flashback.[34]
+ * Leak Detection:
+   * Mandatory installation of hydrogen sensors for indoor use.[22]
+   * Systems should automatically shut off hydrogen flow upon detection of a leak or fire.[22]
+6.2 Potassium Hydroxide (KOH) Handling and Chemical Safety
+KOH is a corrosive substance that requires careful handling.[17, 35, 36]
+ * Hazards: Harmful if swallowed, causes severe skin burns and eye damage. Releases heat when dissolved in water.[17, 35, 36]
+ * First Aid (Immediate Action Required):
+   * Inhalation: Move to fresh air; seek medical attention if respiratory symptoms occur.[17, 35, 36]
+   * Skin Contact: Immediately wash with plenty of water and soap for at least 15 minutes; remove contaminated clothing; seek medical advice for irritation.[17, 35, 36]
+   * Eye Contact: Rinse cautiously with water for several minutes; remove contact lenses if easy; continue rinsing; seek immediate medical attention.[17, 35, 36]
+   * Swallowing: Do not induce vomiting; wash mouth with water; obtain emergency medical attention.[17, 35, 36]
+ * Safe Handling:
+   * Ensure adequate ventilation and exhaustion at the workplace.[17, 35, 36]
+   * Prohibit eating, drinking, or smoking in use areas.[17, 35, 36]
+   * Wash contaminated clothing before reuse; wash hands before breaks and at end of work.[17, 35, 36]
+   * Personal Protective Equipment (PPE): Mandatory use of PVC or rubber gloves, tightly sealed goggles, and a laboratory coat.[17, 35, 36]
+ * Storage:
+   * Store in a cool, dry, well-ventilated area, away from direct sunlight and incompatible materials.[17, 35, 36]
+   * Keep containers tightly closed, suitably labeled, and stored in a locked-up area.[17, 35, 36]
+   * Separate acids from bases, and oxidizer acids from organic acids.[17, 35, 36]
+   * Avoid extreme high temperatures and moisture.[17, 35, 36]
+ * Incompatibilities: Highly reactive with 1,2-Dichloroethylene (produces flammable chloroacetylene), maleic anhydride (explosive decomposition), n-methyl-nitroso urea and methylene chloride (detonation), nitrogen trichloride (explodes). Wet KOH can attack metals like aluminum, tin, lead, and zinc, producing flammable hydrogen gas.[17, 35, 36]
+ * Environmental Precautions: Prevent entry into waterways, drains, or public waters.[17, 35, 36]
+7_FUTURE_DEVELOPMENT.md
+7. Future Development: Advancing the HFRT Hydrogen Generator
+The future development of the HFRT Compact Hydrogen Fuel Generator will focus on continuous improvement and expanded integration.
+ * Material Optimization: Ongoing research into advanced electrode and diaphragm materials to further enhance longevity, resistance to degradation, and overall efficiency.
+ * Scalability and Cost Reduction: Scaling up production processes and optimizing supply chains to further reduce manufacturing costs, making the technology even more competitive in diverse markets.
+ * Expanded Use Cases: Exploring new applications beyond current portable and mobility sectors, such as integration into smart homes, remote industrial sites, or disaster relief efforts.
+ * Renewable Energy Integration: Deeper integration with intermittent renewable energy sources (solar, wind) to ensure a truly green and sustainable hydrogen production cycle. This includes optimizing the generator's response to fluctuating power inputs.
+ * Smart Monitoring and Control: Enhancing real-time monitoring of electrolyte concentration, temperature, and gas purity with AI-driven predictive maintenance capabilities.
+The HFRT generator is poised to be a pivotal enabler in accelerating the global shift towards a cleaner, more distributed energy economy.
+8_REFERENCES.md
+8. References
+ * [6] https://www.fuelcellstore.com/g-hfcs-100w12v-100w-hydrogen-fuel-cell-power-generator
+ * [2] https://www.fuelcellstore.com/electrolyzer-education-kits
+ * [31] https://www.nuvera.com/
+ * [4] https://www.accio.com/plp/hydrogen_generator_parts#:~:text=The%20parts%20that%20make%20up,gas%20purification%20and%20storage%20components.
+ * [5] https://www.ebay.com/shop/electrolysis-power-supply?_nkw=electrolysis+power+supply
+ * [7] https://patents.google.com/patent/EP3281245A1/en
+ * [11] https://www.mastechpowersupply.com/electroplating-power-supply.html
+ * [12] https://researchportal.northumbria.ac.uk/files/190505591/1-s2.0-S0735193325004063-main.pdf
+ * [32] https://en.wikipedia.org/wiki/Hydrogen_internal_combustion_engine_vehicle
+ * [37] https://www.homerenergy.com/products/pro/docs/3.15/electrolyzer_efficiency.html
+ * [33] https://www.cummins.com/engines/hydrogen
+ * [38] https://pubs.acs.org/doi/10.1021/ed073pA172
+ * [16] https://core.ac.uk/download/pdf/159995671.pdf
+ * [39] https://docs.nrel.gov/docs/fy10osti/47302.pdf
+ * [15] https://hydrogentechworld.com/thermal-management-in-green-hydrogen-production-design-considerations
+ * [9] https://landtinst.com/conventional-electrolytic-cell/
+ * [8] https://nickelgreen.com/introduction-to-alkaline-electrolyzer-electrode/
+ * [3] https://www.researchgate.net/publication/342068359_Ultrasound-Assisted_Electrolytic_Hydrogen_Production
+ * [1] https://www.hielscher.com/efficient-hydrogen-production-with-ultrasonics.htm
+ * [8] https://nickelgreen.com/introduction-to-alkaline-electrolyzer-electrode/
+ * [14] http://www.ultrasonic-resonators.org/design/transducers/transducer_design.html
+ * [10] https://primetlab.com/glass-electrolytic-cell-4-neck/
+ * [30] https://pmc.ncbi.nlm.nih.gov/articles/PMC10856650/
+ * [19] https://www.rbciamb.com.br/Publicacoes_RBCIAMB/article/view/1912
+ * [29] https://www.researchgate.net/figure/a-Relationship-between-electrolyte-concentration-KOH-and-NaOH-aqueous-solutions-and_fig4_360913305
+ * [13] https://www.vaisala.com/en/industries-applications/water-electrolysis
+ * [24] https://arxiv.org/pdf/2206.10689#:~:text=Even%20for%20the%20cheapest%20state,%2B90%25%20CCS%20in%202020.
+ * [22] https://h2tools.org/bestpractices/hydrogen-properties-and-leak-detection-considerations/storage-and-use
+ * [26] https://pmc.ncbi.nlm.nih.gov/articles/PMC4692185/
+ * [18] https://labasics.shop/products/b0cccthdxj-nickel-electrode
+ * [23] https://hydrogenera.eu/tpost/0dbz6x6ye1-steam-methane-reforming-vs-electrolysis
+ * [34] https://www.ehs.harvard.edu/sites/default/files/hydrogen_gas_fact_sheet.pdf
+ * [27] https://www.mdpi.com/1996-1073/18/3/741
+ * [28] https://www.mdpi.com/1996-1073/18/3/741#:~:text=4.1.-,Gas%20Chromatography%20(GC),stationary%20phase%20within%20a%20column.
+ * [17] https://asrc.gc.cuny.edu/wp-content/uploads/media/global-assets/Potassium-Hydroxide-MSDS.pdf
+ * [25] https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=917813#:~:text=The%20three%20field%20test%20methods,%2C%20and%203)%20master%20meter%20master%20meter).
+ * [20] https://www.splitter.com/collections/ultrasonic-transducer
+ * [21] https://www.walmart.com/c/kp/ultrasonic-transducers
+ * [36] https://www.mdpi.com/1996-1073/18/3/741
+ * [35] https://www.southernbiological.com/content/MSDS/MC91.24_MC92.24_%20Potassium%20Hydroxide%201M%20SDS%202020.pdf
+ * [6] https://www.fuelcellstore.com/g-hfcs-100w12v-100w-hydrogen-fuel-cell-power-generator
