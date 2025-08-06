@@ -98,16 +98,10 @@ HFRT stands by this result as **preliminary experimental confirmation** of its l
 
 ---
 
-## 8. Recommended Actions
-
-* Include this experiment in **Appendix D** of the HFRT v3.1 Core Validation White Paper.
-* Re-simulate this effect using **HFRT field mesh solvers**.
-* Present this commentary at upcoming HFRT validation meetings and physics symposia.
-* Add visual simulation overlays to `fig_entanglement_via_resonance.png`.
 
 ---
 
-## 9. Conclusion
+##Conclusion
 
 This discovery supports HFRT’s position that **the universe is not built on entangled particles**, but on **coherently resonating fields**. What classical QM calls “entanglement” may be a surface-level observation of deeper **field indistinguishability and phase alignment**.
 
@@ -115,7 +109,7 @@ HFRT predicted this outcome, and as more results like this emerge, resonance-bas
 
 ---
 
-## 10. References
+##References
 
 * Science Advances (2025). DOI: 10.1126/sciadv.adr1794
 * Perry, C. (2025). *HFRT Core Validation White Paper v3.1*.
